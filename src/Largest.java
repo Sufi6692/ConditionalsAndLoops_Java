@@ -12,14 +12,17 @@ public class Largest {
         int c = in.nextInt();
 
         // Q : Find the largest of the 3 numbers
-        int max = a;
-        if(b > max){
-            max = b;
-        }
-        if(c > max){
-            max = c;
-        }
+//        int max = a;
+//        if(b > max){
+//            max = b;
+//        }
+//        if(c > max){
+//            max = c;
+//        }
+//
+//        System.out.println("Your MAX number is : " + max);
 
+        int max =Math.max(c,Math.max(a,b));
         System.out.println("Your MAX number is : " + max);
     }
 }
