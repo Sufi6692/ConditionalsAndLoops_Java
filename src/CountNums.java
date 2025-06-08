@@ -20,7 +20,7 @@ public class CountNums {
 
         }
 
-        System.out.print("matching digits in number : " + count);
+        System.out.print("matching digit in number : " + count);
 
     }
 }
